@@ -1,6 +1,10 @@
 TP 2 : Spring IOC
 
+On a ajouté @Autowired pour injecter automatiquement DaoImpl dans MetierImpl et @Qualifier("dao") pour la sélectionner dans Presentation2, ce qui donne un résultat de 200.0.
+
 <img width="760" height="246" alt="Screenshot 2026-10-12 165904" src="https://github.com/user-attachments/assets/eaa98d66-d0b6-4128-9143-25a4a19edd66" />
+
+On a ajouté @Qualifier("dao2") avec @Autowired pour injecter DaoImpl2 dans MetierImpl. Comme DaoImpl2 retourne 150.0, le résultat final est 300.0.
 
 <img width="833" height="316" alt="Screenshot 2026-10-12 170447" src="https://github.com/user-attachments/assets/c22a020f-01c9-42d3-948a-020b75e3818b" />
 
